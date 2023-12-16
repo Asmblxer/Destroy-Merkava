@@ -2,7 +2,7 @@ import turtle
 import winsound 
 import math
 import random
-#import serial
+#import serial    //for arduino
 from threading import Thread
 from time import sleep
 
@@ -115,6 +115,7 @@ turtle.onkey(move_left, "Left")
 turtle.onkey(move_right, "Right")
 turtle.onkey(fire_bullet, "space")
 
+# // Arduino control
 # ser = serial.Serial('com3', 9600)
 # global txt = ''
 # def read_serial():
